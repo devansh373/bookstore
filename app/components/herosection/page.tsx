@@ -489,10 +489,10 @@ export default function Home() {
           ) : (
             <>
               <h1 className="text-3xl md:text-4xl text-gray-900 font-bold mt-6 mb-3">
-                {settings?.metaDescription || "Welcome to Book Center"}
+                {settings?.title || "Welcome to Book Center"}
               </h1>
               <p className="text-lg text-gray-600 mb-6">
-                A Harsh Book Store platform for book lovers
+                {settings?.metaDescription||"A bookstore for book lovers"}
               </p>
             </>
           )}

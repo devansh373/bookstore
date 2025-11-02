@@ -23,7 +23,7 @@ export const useRedirectIfAdmin = () => {
 
           if (res.data.user.role === "Admin") {
             setRoleAtomValue(res.data.user.role)
-            router.replace("/admin");
+            router.replace("/admin/dashboard");
           }
         } catch {
         } finally {
