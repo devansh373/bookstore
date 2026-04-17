@@ -132,7 +132,7 @@ const BookStoreLoginPage: React.FC = () => {
       <div className="flex flex-col items-center justify-center flex-1 px-4 py-10">
         <div className="flex flex-col items-center mb-6">
           <Image
-            src="/images/logo.png"
+            src="https://res.cloudinary.com/dev-tech/image/upload/q_auto/f_auto/v1776415099/bookstore/logo_lu6pyb.png"
             alt="Harsh Book Store Logo"
             width={64}
             height={64}
